@@ -1,0 +1,74 @@
+.login-page {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .container-login {
+    border: 2px solid var(--mandy-200);
+    background: var(--mandy-200);
+    border-radius: 12px;
+    width: 60rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+  }
+}
+
+.container-login h1 {
+  color: var(--mandy-950);
+  font-style: italic;
+}
+
+.container-login input {
+  border: 1px solid var(--mandy-300);
+  border-radius: 6px;
+  width: 40rem;
+  padding: 5px 10px;
+  font-size: small;
+  background-color: var(--mandy-200) !important;
+  color: var(--mandy-950) !important;
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.errors {
+  color: red;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 58.9%;
+  right: 110px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--mandy-950);
+}
+
+.eye-icon-error {
+  position: absolute;
+  top: 55.2%;
+  right: 110px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--mandy-950);
+}
+
+button {
+  margin-top: 0;
+}

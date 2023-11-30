@@ -1,0 +1,43 @@
+nav {
+  background-color: var(--mandy-200);
+  flex: 0.4;
+  color: var(--mandy-950);
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80rem;
+  align-self: center;
+  justify-content: space-around;
+  border-radius: 0 0 0.4rem 0.4rem;
+  height: 4.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+nav > div {
+  width: 50%; /* Ambos div tienen el 50% del ancho del nav */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+}
+
+div {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: large;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.focused {
+  background-color: var(--mandy-300);
+  height: 100%;
+  border-radius: 0 0 0.4rem 0.4rem;
+}

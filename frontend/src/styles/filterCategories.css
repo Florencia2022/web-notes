@@ -1,0 +1,32 @@
+option {
+  color: var(--mandy-700);
+  background-color: var(--mandy-200);
+}
+
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-filter {
+  margin-left: 12px;
+  color: var(--mandy-700);
+}
+
+select {
+  padding: 0.4rem;
+  color: var(--mandy-950);
+  background-color: transparent;
+  border: 1px solid var(--mandy-400);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none; /* Elimina el resplandor predeterminado del enfoque */
+}
+
+select option:checked {
+  background-color: transparent;
+  color: var(--mandy-700);
+}

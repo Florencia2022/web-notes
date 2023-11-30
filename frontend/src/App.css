@@ -1,0 +1,33 @@
+.App {
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: auto 1fr auto;
+  background-color: var(--mandy-100);
+  gap: 2rem;
+}
+
+.container-loading {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-loading h5 {
+  color: var(--mandy-950);
+  font-style: italic;
+}
+.button-logout {
+  position: fixed;
+  bottom: 10%;
+  left: 2%;
+}

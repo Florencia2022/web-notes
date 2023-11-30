@@ -1,0 +1,35 @@
+:root {
+  --mandy-50: #fef2f3;
+  --mandy-100: #fde6e7;
+  --mandy-200: #fbd0d5;
+  --mandy-300: #f7aab2;
+  --mandy-400: #f27a8a;
+  --mandy-500: #ea546c;
+  --mandy-600: #d5294d;
+  --mandy-700: #b31d3f;
+  --mandy-800: #961b3c;
+  --mandy-900: #811a39;
+  --mandy-950: #48091a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Cormorant", serif;
+}
+
+body {
+  height: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
